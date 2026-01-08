@@ -17,7 +17,7 @@ total_revenue = 0
 
 # Revenue
 for i in range(len(hairstyles)):
-  total_revenue = prices[i] * last_week[i]
+  total_revenue += prices[i] * last_week[i]
 print(f"Total Revenue: {total_revenue}")
 average_daily_revenue = total_revenue / 7
 print(f"Average_ Daily Revenue: {average_daily_revenue}")
